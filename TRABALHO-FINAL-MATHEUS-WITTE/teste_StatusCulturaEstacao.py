@@ -25,8 +25,7 @@ Uva= CulturaEstacao(
     classificacao=ClassificacaoCultura.ANGIOSPERMA,
     estacao=verao,
     nota_produtividade=9,
-    nota_resistencia=8,
-    recomendado=True
+    nota_resistencia=8
 )
 
 print(milho_status.exibir_dados())
@@ -43,3 +42,4 @@ print(melancia_status.exibir_dados())
 
 print()
 print(Uva.exibir_dados())
+
